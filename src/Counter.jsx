@@ -2,10 +2,9 @@ import { useState } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
-  
+
   const handleAdd = () => {
-    const newCount = count + 1;
-    setCount(newCount);
+    setCount(count + 1);
   };
 
   return (
